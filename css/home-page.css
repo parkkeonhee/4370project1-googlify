@@ -1,0 +1,126 @@
+body.main{
+	font-family: Verdana, Arial;
+	background: linear-gradient(to bottom, #ffa500 0%,#ffa500 39%, #000000 39%, #ffffff 39%, #ffffff 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div.service-logo, h1.service-name, h2.motto, h2.offer, h3.features, h3.sale{
+	text-align: center;
+}
+
+div.columns{
+	width: 100%;
+	margin: 0 auto;
+}
+ul.price{
+	display: table;
+	margin: 0 auto;
+}
+
+li.features-list{
+	list-style-image: url("../images/music-list.png");
+}
+
+a{
+	text-decoration: none;
+}
+
+img.service-img{
+	width: 200px;
+	height: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.tabs {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    display: table; 
+    table-layout: fixed; 
+    width: 100%;
+}
+
+.tabs-item {
+	display: table-cell; 
+}
+
+.tabs-link {
+	display: block; 
+}
+
+footer{
+	text-align: center;
+}
+
+.primary-nav {
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden; 
+}
+
+.primary-nav a {
+	padding: 1em;
+	background-color: lightblue;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.primary-nav a:hover {
+	background-color: #A3C43B;
+}

@@ -1,0 +1,169 @@
+body.main{
+	font-family: Verdana, Arial;
+	background: linear-gradient(to bottom, #ffa500 0%,#ffa500 40%, #000000 40%, #ffffff 40%, #ffffff 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body.lyrics{
+	font-family: Verdana, Arial;
+	background-color: #ffa500;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tabs {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    display: table; 
+    table-layout: fixed; 
+    width: 100%;
+}
+
+.tabs-item {
+	display: table-cell; 
+}
+
+.tabs-link {
+	display: block; 
+}
+
+.primary-nav {
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden; 
+}
+
+.primary-nav a {
+	padding: 1em;
+	background-color: lightblue;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.primary-nav a:hover {
+	background-color: #A3C43B;
+}
+
+tr.song-odd-row{
+	background-color: #ecebe8;
+}
+
+tr.song-even-row{
+	background-color: #ffffff;
+}
+
+th.song-column{
+	text-align: left;
+	text-indent: 5px;
+}
+
+td.song-column{
+	text-align: left;
+	text-indent: 5px;
+}
+
+td.play-time-column{
+	text-align: center;
+}
+
+td.play-count-column{
+	text-align: center;
+}
+
+td.rating-column{
+	text-align: center;
+}
+
+img.song-column{
+	float: right;
+	height: 18px;
+	width: 18px;
+}
+
+a.song-link{
+	text-decoration: none;
+}
+
+h1.service-name, h2.album-name, p.album-description, div.album-cover, .song-title{
+	text-align: center;
+}
+
+table.table-album{
+	margin: 0px auto;
+}
+
+a.artist-album{
+	text-decoration: none;
+	color: blue;	
+}
+
+div.track{
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+p.previous-track{
+	float: left;
+	margin-left:50px;
+	font-weight: bold;
+}
+
+p.next-track{
+	float: right;
+	margin-right:50px;
+	font-weight: bold;
+}
+
+h3.lyrics-header{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+footer{
+	margin-top:25px;
+	text-align: center;
+}
+
+img.validator{
+	width:100px;
+	height:50px;
+}
+
+div.lyrics{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+p.lyrics{
+	text-align: center;
+}
+
+a.next-track, a.prev-track{
+	color: #000000;
+	font-size:22px;
+	text-decoration: none;
+}
+
+th, tr, td{
+	border: 1px solid black;
+	height: auto;
+	width: auto;
+}
+#test{
+	position: fixed;
+    z-index: 100;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+}
+
+img{
+	width: 25%;
+	height: 25%;
+}
